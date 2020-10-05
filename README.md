@@ -1,4 +1,4 @@
-# INTRUÇÕES
+# INSTRUÇÕES PARA UTILIZAÇÃO
 
 ## Para poder utilizar e testar o Backend feito em PHP sem framework, primeiramente importe a base de dados com o nome financeiro.sql que contém a estrutura do banco de dados.
 
