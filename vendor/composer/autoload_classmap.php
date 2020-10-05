@@ -9,6 +9,7 @@ return array(
     'App\\Controller\\ClientController' => $baseDir . '/app/src/controller/ClientController.php',
     'App\\Controller\\CreditController' => $baseDir . '/app/src/controller/CreditController.php',
     'App\\Controller\\DebitController' => $baseDir . '/app/src/controller/DebitController.php',
+    'App\\Controller\\ExtractController' => $baseDir . '/app/src/controller/ExtractController.php',
     'App\\Controller\\TransferController' => $baseDir . '/app/src/controller/TransferController.php',
     'App\\DB\\Sql' => $baseDir . '/app/src/DB/Sql.php',
     'App\\Model\\ClientModel' => $baseDir . '/app/src/model/ClientModel.php',
