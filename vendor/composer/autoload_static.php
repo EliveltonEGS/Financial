@@ -23,9 +23,14 @@ class ComposerStaticInite84d7563d381ee7020ac9705d6d9d10a
     public static $classMap = array (
         'App\\Controller\\ClientController' => __DIR__ . '/../..' . '/app/src/controller/ClientController.php',
         'App\\Controller\\CreditController' => __DIR__ . '/../..' . '/app/src/controller/CreditController.php',
+        'App\\Controller\\DebitController' => __DIR__ . '/../..' . '/app/src/controller/DebitController.php',
+        'App\\Controller\\TransferController' => __DIR__ . '/../..' . '/app/src/controller/TransferController.php',
         'App\\DB\\Sql' => __DIR__ . '/../..' . '/app/src/DB/Sql.php',
         'App\\Model\\ClientModel' => __DIR__ . '/../..' . '/app/src/model/ClientModel.php',
         'App\\Model\\CreditModel' => __DIR__ . '/../..' . '/app/src/model/CreditModel.php',
+        'App\\Model\\DebitModel' => __DIR__ . '/../..' . '/app/src/model/DebitModel.php',
+        'App\\Model\\ExtractModel' => __DIR__ . '/../..' . '/app/src/model/ExtractModel.php',
+        'App\\Model\\TransferModel' => __DIR__ . '/../..' . '/app/src/model/TransferModel.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
