@@ -1,0 +1,21 @@
+{
+  "name": "elivelton/financeiro",
+  "description": "Teste Lightup",
+  "authors": [
+    {
+      "name": "Elivelton",
+      "email": "eliveltongsoficial@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "classmap": [
+      "app/src"
+    ]
+  },
+  "require": {
+    "php": ">=7.0"
+  }
+}
