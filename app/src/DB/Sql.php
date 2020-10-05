@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\DB;
 
 require("config.php");
@@ -8,8 +7,6 @@ require("config.php");
 use PDO;
 use PDOException;
 
-
-//faz tudo relaciondo a classe PDO
 class Sql extends PDO
 {
 
