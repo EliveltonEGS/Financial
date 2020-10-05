@@ -24,6 +24,7 @@ class ComposerStaticInite84d7563d381ee7020ac9705d6d9d10a
         'App\\Controller\\ClientController' => __DIR__ . '/../..' . '/app/src/controller/ClientController.php',
         'App\\Controller\\CreditController' => __DIR__ . '/../..' . '/app/src/controller/CreditController.php',
         'App\\Controller\\DebitController' => __DIR__ . '/../..' . '/app/src/controller/DebitController.php',
+        'App\\Controller\\ExtractController' => __DIR__ . '/../..' . '/app/src/controller/ExtractController.php',
         'App\\Controller\\TransferController' => __DIR__ . '/../..' . '/app/src/controller/TransferController.php',
         'App\\DB\\Sql' => __DIR__ . '/../..' . '/app/src/DB/Sql.php',
         'App\\Model\\ClientModel' => __DIR__ . '/../..' . '/app/src/model/ClientModel.php',
