@@ -2,7 +2,7 @@
 
 ## Para poder utilizar e testar o Backend feito em PHP sem framework, primeiramente importe a base de dados com o nome financeiro.sql que contém a estrutura do banco de dados.
 
-Para iniciar os testes utilize uma aplicação de requisições http POST, GET, PUT E DELETE, pode 
+Para iniciar os testes utilize uma aplicação de requisições http POST, GET, PUT e DELETE, pode 
 ser utilizado o Postman, ou outros programas que possuem a mesma função, ou até mesmo uma extensão
 instalada no navegado.
 
@@ -45,7 +45,7 @@ http://localhost/dev/Financial/app/src/api/debit/create.php
 ### Para fazer uma transfêrencia de uma conta para outra:
 
 Para realizar esta transfêrencia a pessoa que irá transferir o valor deve informar o valor, o id dessa pessoa também
-deve ser informado (no FrontEnd deve ser carregado esse id) e o CPF da mesma. A Agência e a conta é da pessoa que
+deve ser informado (no FrontEnd deve ser carregado esse id) e o CPF da mesma. A agência e a conta é da pessoa que
 receberá este valor.
 
 http://localhost/dev/Financial/app/src/api/transfer/create.php
@@ -80,9 +80,9 @@ http://localhost/dev/Financial/app/src/api/client/balance.php?cpf=12345678932
 No ubuntu com o lamp-server executando os seguintes comandos no termial:
 
 ## Para realizadar a atualização dos repositórios:
-sudo apt update
-sudo apt upgrade
-sudo apt full-upgrade
+- __sudo apt update__
+- __sudo apt upgrade__
+- __sudo apt full-upgrade__
 
 ## Para instalar o Lamp-Server:
 sudo apt install lamp-server^
@@ -96,11 +96,11 @@ sudo chmod -R 777 /var/www/
 
 Farazer o Download com versão para linux em: https://www.apachefriends.org/pt_br/index.html
 
-__Dar permisssão total com o comando: sudo chmod -R 777 xampp-linux-x64-7.4.10-0-installer.run.crdownload.__
-__Para instalar com o comando: sudo ./xampp-linux-x64-7.4.10-0-installer.run.crdownload.__
-__O projeto PHP deve ficar no diretório /opt/lampp/htdocs e também deverá ser dado.__
-__Permissão total para a pasta do projeto com o comando "sudo chmod -R 777 diretório".__
-__Para iniciar o servidor, utilizar o comando: sudo /opt/lampp/lampp start.__
+- __Dar permisssão total com o comando: sudo chmod -R 777 xampp-linux-x64-7.4.10-0-installer.run.crdownload.__
+- __Para instalar com o comando: sudo ./xampp-linux-x64-7.4.10-0-installer.run.crdownload.__
+- __O projeto PHP deve ficar no diretório /opt/lampp/htdocs e também deverá ser dado.__
+- __Permissão total para a pasta do projeto com o comando "sudo chmod -R 777 diretório".__
+- __Para iniciar o servidor, utilizar o comando: sudo /opt/lampp/lampp start.__
 
 Após isso acessar no navegador http://localhost/phpmyadmin/ para acessar o phpmyadmin e utilizar 
 o banco de dados.
