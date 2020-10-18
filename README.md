@@ -51,7 +51,7 @@ receberá este valor.
 http://localhost/dev/Financial/app/src/api/transfer/create.php
 
 - __value: valor quer vai ser transferido__
-- __id_clinet: deve ser informado id da pessoa que vai fazer a transferência para a outra pessoa, ou seja, este é o id da pessoa que vai depositar na conta de outra pessoa e será descontado/debitado o valor de sua conta__
+- __id_client: deve ser informado id da pessoa que vai fazer a transferência para a outra pessoa, ou seja, este é o id da pessoa que vai depositar na conta de outra pessoa e será descontado/debitado o valor de sua conta__
 - __cpf: deve ser informado o cpf da pessoa que irá transferir o valor para a conta da outra pessoa, esse mesmo valor será descontado/debitado de sua conta__
 - __agency: este é o numero da agência que deverá ser informadado para ser creditado/depositado o valor.__
 - __account: esta é o número da conta que receberá o valor adicionado.__
